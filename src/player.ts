@@ -1,7 +1,7 @@
 /**
  * Plane in tyrian
  */
-class Player {
+export class Player {
     
     public Coordinate: ICoordinate;
     public Health: number;
@@ -11,7 +11,7 @@ class Player {
     }
 }
 
-interface ICoordinate {
+export interface ICoordinate {
     X: number;
     Y: number;
 }
